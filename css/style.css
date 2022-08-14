@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/*     font-family: 'Red Hat Display', sans-serif;
+       font-family: 'Roboto', sans-serif;
+*/
+
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	 font-family: 'Roboto', sans-serif;
+	 scroll-behavior: smooth;
+
+}
+
+
+nav .navbar-collapse ul li a{
+	padding: 12px 30px!important;
+	color:black!important;
+	font-weight: 500;
+    font-size: 19.3856px;
+    line-height: 23px;
+    background-color: transparent;
+    transition-duration: 0.3s;
+    border-radius: 5px;
+
+}
+nav .navbar-collapse ul li a:hover{
+	color:white!important;
+background-image: linear-gradient(-50deg,blue,#8da6f5) !important
+}
+
+ nav .social-icon ul li a{
+ 	padding: 7px 13px;
+ 	border-radius: 5px;
+ 	background-color: #34d5b4;
+ 	color:white;
+ 	font-weight: 500;
+    font-size: 19.3856px;
+    line-height: 23px;
+ }
+  nav .social-icon ul li a:hover{
+  	color:black;
+  }
+
+.offcanvas{
+	background-image: linear-gradient(-50deg,blue,#8da6f5) !important;
+}
+
+  
+  .offcanvas .offcanvas-body .nav-link{
+  	color:black !important;
+  	font-weight: 600;
+  	padding: 5px 12px;
+  	background-color: transparent;
+  	display: inline-block;
+  	border-radius: 4px;
+  }
+   .offcanvas .offcanvas-body .nav-link:hover{
+   color:#fff!important;
+   background-color: #a75794bf;
+   }
+/*next-section start************************************************/
+.next-section{
+	padding: 170px 0px 170px 0px;
+}
+  .next-section .next h1{
+  	font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 700;
+font-size: 74.0971px;
+line-height: 98px;
+padding-top: 30px;
+color: #1B8036;
+  }
+  .next-section .next p{
+  	font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 500;
+font-size: 24.8718px;
+line-height: 33px;
+/* identical to box height */
+padding: 30px 0px 50px 0px;
+
+color: #464749;
+  }
+  .next-section .next a{
+  	padding: 5px 10px;
+  	background-color: #1B8036;
+  	text-decoration: none;
+  	font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 500;
+font-size: 19.3856px;
+line-height: 26px;
+border-radius: 5px;
+transition-duration: 0.3s;
+text-align: center;
+border:1px solid transparent;
+color: #FFFFFF;
+  }
+   .next-section .next a:hover{
+   	background-color: transparent;
+   	color: black;
+   	border:1px solid black;
+   }
+
+  /*next-section end************************************************/
+
+/*   what  section start*******************************************/
+.what-section{
+	background-color: #dddbdb61;
+	padding: 70px 0px;
+}
+.what-section .what{}
+.what-section .what img{
+	width: 450px;
+	object-fit: cover;
+}
+.what-section .what .nav{}
+.what-section .what .nav li{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16.1547px;
+line-height: 203.19%;
+/* identical to box height, or 33px */
+
+letter-spacing: 0.055em;
+
+color: #C4C4C4;
+}
+.what-section .what .nav li a{}
+.what-section .what h1{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 38.7712px;
+line-height: 116.69%;
+color: #000000;
+padding: 20px 0px 40px 0px;
+}
+.what-section .what p{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 25.8475px;
+line-height: 199.69%;
+/* or 44px */
+
+
+color: #0C0C0C;
+}
+
+
+
+
+/*   what  section end*******************************************/
+
+/*faq-section start*************************************************/
+
+.accordion-section{
+	padding-top: 50px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.accordion-section h1{
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+.inner{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #bedfe8;
+}
+.accordion .contentBox{
+	position:relative;
+	margin:10px 20px;
+}
+.accordion .contentBox .label{
+	position: relative;
+	padding: 10px;
+	background-color: #2694af;
+	color:#fff;
+	cursor:pointer;
+	font-size: 20px;
+}
+.accordion .contentBox .label::before{
+	content:'+';
+	position:absolute;
+	top:50%;
+	right:20px;
+	transform: translateY(-50%);
+	font-size: 24px;
+
+}
+.accordion .contentBox .label::after{
+	content:'';
+	height:25px;
+	width:25px;
+	position: absolute;
+	background-color:#2694af; 
+	transform: rotate(45deg);
+	left: 25px;
+	top:28px;
+	z-index: 1;
+
+}
+.accordion .contentBox .content{
+	position: relative;
+	background-color: #fff;
+	height:0;
+	overflow: hidden;
+	transition: 0.2s;
+	overflow-y: auto;
+}
+.accordion .contentBox.active .content{
+	height:150px;
+	padding: 10px;
+}
+.accordion .contentBox.active .label::before{
+	content:'-';
+}
+
+/*faq-section end*************************************************/
+/*urban-section start********************************************/
+.urban-section{
+	background-color: #dddbdb61;
+	padding: 70px 0px;
+}
+
+
+.urban-section .urban{}
+.urban-section .urban h1{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 38.7712px;
+line-height: 116.69%;
+/* or 45px */
+
+
+color: #000000;
+}
+.urban-section .urban h2{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 25.8475px;
+line-height: 55px;
+padding: 50px 0px 40px 0px;
+
+
+color: #0C0C0C;
+}
+.urban-section .urban p{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 19.3856px;
+line-height: 169.69%;
+/* or 33px */
+
+
+color: #7C7C7C;
+}
+.urban-section .urban img{
+
+}
+
+
+/*urban-section end********************************************/
+
+ /*subscribe section start ************************************/
+ .subscribe-section{
+ 	padding: 70px 0px ;
+ }
+ .subscribe-section .container{
+ 	padding: 20px;
+ 	border-radius: 10px;
+ 	background: linear-gradient(100.66deg, #1B8036 23.13%, rgba(8, 63, 26, 0.92) 82.12%, rgba(8, 63, 26, 0.86) 97.79%);
+ }
+ .subscribe-section .subscribe1 img{}
+ .subscribe-section .subscribe2 h1{
+ 	color:white;
+ 	font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 25.8425px;
+line-height: 30px;
+text-align: center;
+ }
+ .subscribe-section .email {
+ 	height:50px;
+ 	position: relative;
+ }
+ .subscribe-section .email input {
+ 	height:100%;
+ 	width:400px;
+ 	padding-left: 30px;
+ 	font-size: 18px;
+ 	outline:none;
+   font-family: 'Roboto';
+   border-radius: 50px;
+   border:2px solid coral;
+ }
+ .subscribe-section .email button {
+ 	position:absolute;
+ 	top:50%;
+ 	right:81px;
+ 	transform: translate(-50%,-50%);
+ 	padding: 3px 10px;
+ 	border-radius: 40px;
+ 	border:1px solid gray;
+ 	cursor:pointer;
+ 	outline: none;
+ 	background-color: rgba(8, 63, 26, 0.86);
+ 	color:white;
+ }
+ .subscribe-section .email button:hover {
+background-color:rgba(8, 63, 26, 0.92);
+ }
+ .subscribe-section .email  button i{
+ 	background-color: white;
+ 	color:black;
+ 	width:30px;
+ 	height:30px;
+ 	line-height: 30px;
+ 	border-radius: 50%;
+ }
+
+
+
+/*subscribe section end ************************************/
+
+footer{
+	padding: 50px 0px 0px 0px;
+	color:  #F5F5F5;
+background: linear-gradient(100.66deg, #1B8036 23.13%, rgba(8, 63, 26, 0.92) 82.12%, rgba(8, 63, 26, 0.86) 97.79%);
+}
+footer .inner{}
+footer .innerr h3{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 19.3818px;
+line-height: 23px;
+padding-bottom: 20px;
+
+
+
+color: #FFFFFF;
+}
+footer .inner1 h3{
+	padding-bottom: 20px;
+}
+footer .inner img{
+	color: white;
+}
+footer .innerr p{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 17.4068px;
+line-height: 20px;
+padding: 20px 0px;
+color: #F5F5F5;
+}
+footer .inner1 ul li {
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 17.4068px;
+line-height: 20px;
+padding-bottom: 20px;
+color: #FFFFFF;
+transition-duration: 0.3s;
+
+}
+footer .inner1 ul li:hover{
+	color:#dbd4d466;
+}
+footer .innerr .icon  li i{
+	font-size: 25px;
+	padding-right: 20px;
+}
+footer span {
+	display: block;
+	height:1px;
+	width:100%;
+
+	background-color:#918a8a;
+	
+
+}
+footer h4{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 19.3818px;
+line-height: 23px;
+/* identical to box height */
+
+text-align: center;
+
+color: #F5F5F5;
+}
+

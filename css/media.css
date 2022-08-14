@@ -1,0 +1,632 @@
+@media (min-width: 300px) and (max-width: 419.9px){
+
+
+	nav .navbar-collapse ul li a {
+    padding: 0px 11px!important;
+   
+    font-size: 12.3856px;
+    line-height: 27px;
+}
+nav .social-icon ul li a {
+    padding: 2px 8px;
+    
+    font-size: 12.3856px;
+    line-height: 20px;
+}
+nav .navbar-brand img{
+	width: 90px;
+}
+.navbar-toggler {
+    padding: 2px 8px !important;
+    font-size: 16px!important;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+.next-section .next h1 {
+  
+
+    font-size: 44.0971px;
+    line-height: 50px;
+    padding-top: 0px;
+}
+.next-section {
+    padding: 93px 0px 170px 0px;
+}
+.next-section .next p {
+   
+    font-size: 21.8718px;
+    line-height: 26px;
+    padding: 0px 0px 0px 0px;
+  
+}
+.next-section .next a {
+    padding: 6px 10px;
+    margin-bottom: 20px;
+    font-size: 14.3856px;
+    line-height: 26px;
+  
+}
+.next-section .next img {
+	padding-top: 30px;
+}
+.what-section .order{
+	order:1;
+}
+.what-section .what p {
+   
+    font-size: 23.8475px;
+    line-height: 145.69%;
+}
+.what-section .what h1 {
+    
+    padding: 20px 0px 20px 0px;
+}
+.what-section .what p {
+	padding-bottom: 32px !important;
+}
+.urban-section .urban h1 {
+ 
+    font-size: 31.7712px;
+    line-height: 49.69%;
+}
+.urban-section .urban h2 {
+  
+    font-size: 25.8475px;
+    line-height: 32px;
+    padding: 19px 0px 0px 0px;
+}
+.urban-section .urban p {
+   
+    font-size: 17.3856px;
+    line-height: 154.69%;
+    padding-bottom: 30px!important;
+}
+.urban-section span {
+   
+    width: 200px;
+}
+.urban-section .sp {
+  
+    width: 200px;
+}
+.subscribe-section .subscribe1{
+	text-align: center;
+}
+.subscribe-section .email input {
+   
+    width: 269px;
+    margin:auto;
+}
+.subscribe-section .email button {
+  
+    right: -16px;}
+.subscribe-section .email{
+	text-align: center;
+
+}
+footer .inner {
+    padding-bottom: 20px;
+}
+footer .inner p {
+  
+    font-size: 14.4068px;
+    line-height: 20px;
+    padding: 4px 0px;
+    margin-bottom: 0px;
+}
+footer .inner .icon li i {
+    font-size: 20px;
+    padding-right: 10px;
+}
+footer .inner1 ul li {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.4068px;
+    line-height: 20px;
+    padding-bottom: 7px;
+}
+footer .inner1 h3 {
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    font-size: 19px;
+}
+footer h4 {
+  
+    font-size: 10.3818px;
+    margin-bottom: 0px;
+}
+
+
+
+}
+
+@media (min-width: 420px) and (max-width: 575.9px){
+
+.subscribe-section .subscribe1{
+    text-align: center;
+}
+.subscribe-section .email input {
+   
+    width: 359px;
+    margin:auto;
+}
+.subscribe-section .email button {
+  
+    right: 3px;}
+
+.subscribe-section .email{
+    text-align: center;
+
+}
+
+		nav .navbar-collapse ul li a {
+    padding: 0px 11px!important;
+   
+    font-size: 12.3856px;
+    line-height: 27px;
+}
+nav .social-icon ul li a {
+    padding: 5px 13px;
+    
+    font-size: 12.3856px;
+    line-height: 20px;
+}
+nav .navbar-brand img{
+	width: 100px;
+}
+.navbar-toggler {
+    padding: 2px 8px !important;
+    font-size: 16px!important;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+.next-section .next h1 {
+  
+
+    font-size: 50.0971px;
+    line-height: 60px;
+    padding-top: 0px;
+}
+.next-section {
+    padding: 93px 0px 170px 0px;
+}
+.next-section .next p {
+   
+    font-size: 27.8718px;
+    line-height: 36px;
+    padding: 0px 0px 0px 0px;
+  
+}
+.next-section .next a {
+       padding: 8px 12px;
+    margin-bottom: 20px;
+    font-size: 15.3856px;
+    line-height: 26px;
+  
+}
+.next-section .next img {
+	padding-top: 30px;
+
+}
+.next-section .we{
+	text-align: center;
+}
+.what-section .order{
+	order:1;
+}
+.what-section .what p {
+   
+    font-size: 23.8475px;
+    line-height: 145.69%;
+}
+.what-section .what h1 {
+    
+    padding: 20px 0px 20px 0px;
+}
+.what-section .what p {
+	padding-bottom: 32px !important;
+}
+.urban-section .urban h1 {
+ 
+    font-size: 33.7712px;
+    line-height: 53.69%;
+}
+.urban-section .urban h2 {
+  
+    font-size: 27.8475px;
+    line-height: 34px;
+    padding: 19px 0px 0px 0px;
+}
+.urban-section .urban p {
+   
+    font-size: 17.3856px;
+    line-height: 154.69%;
+    padding-bottom: 30px!important;
+}
+.urban-section span {
+   
+    width: 350px;
+}
+.urban-section .sp {
+  
+    width: 350px;
+}
+
+footer .inner {
+    padding-bottom: 20px;
+}
+footer .inner p {
+  
+    font-size: 14.4068px;
+    line-height: 20px;
+    padding: 4px 0px;
+    margin-bottom: 0px;
+}
+footer .inner .icon li i {
+    font-size: 20px;
+    padding-right: 10px;
+}
+footer .inner1 ul li {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.4068px;
+    line-height: 20px;
+    padding-bottom: 7px;
+}
+footer .inner1 h3 {
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    font-size: 19px;
+}
+footer h4 {
+  
+    font-size: 10.3818px;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media (min-width: 576px) and (max-width: 767.9px){
+
+		nav .navbar-collapse ul li a {
+    padding: 0px 11px!important;
+   
+    font-size: 12.3856px;
+    line-height: 27px;
+}
+nav .social-icon ul li a {
+    padding: 8px 18px;
+    
+    font-size: 16.3856px;
+    line-height: 20px;
+}
+nav .navbar-brand img{
+	width: 140px;
+}
+.navbar-toggler {
+    padding: 2px 8px !important;
+    font-size: 16px!important;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+.next-section .next h1 {
+    
+    font-size: 41.0971px;
+    line-height: 45px;
+    padding-top: 0px;
+}
+.next-section {
+    padding: 120px 0px 170px 0px;
+}
+.next-section .next p {
+    
+    font-size: 22.8718px;
+    line-height: 28px;
+    padding: 0px 0px 8px 0px;
+}
+.next-section .next img {
+	height:300px;
+
+}
+.what-section .what .nav li {
+   
+    font-size: 13.1547px;
+    line-height: 149.19%;
+}
+.what-section .what h1 {
+  
+    font-size: 23.7712px;
+    line-height: 114.69%;
+  
+    padding: 1px 0px 0px 0px;
+}
+.what-section .what p {
+  
+    font-size: 16.8475px;
+    line-height: 131.69%;
+}
+.urban-section .urban h1 {
+ 
+    font-size: 28.7712px;
+    line-height: 63.69%;
+}
+.urban-section .urban h2 {
+  
+    font-size: 22.8475px;
+    line-height: 28px;
+    padding: 6px 0px 0px 0px;
+}
+.urban-section .urban p {
+   
+    font-size: 16.3856px;
+    line-height: 128.69%;
+    padding-bottom: 0px!important;
+}
+.urban-section span {
+   
+    width: 450px;
+}
+.urban-section .sp {
+  
+    width: 450px;
+}
+.subscribe-section .subscribe1{
+	text-align: center;
+}
+.subscribe-section .email input {
+   
+    width: 250px;
+    margin:auto;
+}
+.subscribe-section .email button {
+  
+    right: -68px;}
+.subscribe-section .email{
+	text-align: center;
+
+}
+.subscribe-section .subscribe1 img {
+    width: 80px;
+}
+.subscribe-section .subscribe2 h1 {
+ 
+    font-size: 17.8425px;
+    line-height: 23px;
+}
+
+footer .inner p {
+  
+    font-size: 14.4068px;
+    line-height: 20px;
+    padding: 4px 0px;
+    margin-bottom: 0px;
+}
+footer .inner .icon li i {
+    font-size: 20px;
+    padding-right: 10px;
+}
+footer .inner1 ul li {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.4068px;
+    line-height: 20px;
+    padding-bottom: 7px;
+}
+footer .inner1 h3 {
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    font-size: 19px;
+}
+footer h4 {
+  
+    font-size: 10.3818px;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991.9px){
+
+		nav .navbar-collapse ul li a {
+    padding: 0px 11px!important;
+   
+    font-size: 14.3856px;
+    line-height: 30px;
+}
+nav .social-icon ul li a {
+    padding: 8px 18px;
+    
+    font-size: 16.3856px;
+    line-height: 20px;
+}
+nav .navbar-brand img{
+	width: 140px;
+}
+.navbar-toggler {
+    padding: 2px 8px !important;
+    font-size: 20px!important;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+.next-section .next h1 {
+    
+    font-size: 48.0971px;
+    line-height: 54px;
+    padding-top: 0px;
+}
+.next-section {
+    padding: 120px 0px 170px 0px;
+}
+.next-section .next p {
+    
+    font-size: 25.8718px;
+    line-height: 32px;
+    padding: 0px 0px 8px 0px;
+}
+.next-section .next img {
+	height:300px;
+
+}
+.what-section .what .nav li {
+   
+    font-size: 13.1547px;
+    line-height: 149.19%;
+}
+.what-section .what h1 {
+  
+    font-size: 26.7712px;
+    line-height: 130.69%;
+  
+    padding: 5px 0px 20px 0px;
+}
+.what-section .what p {
+  
+    font-size: 17.8475px;
+    line-height: 147.69%;
+}
+.urban-section span {
+   
+    width: 550px;
+}
+.urban-section .sp {
+  
+    width: 550px;
+}
+.subscribe-section .subscribe1{
+	text-align: center;
+}
+.subscribe-section .email input {
+   
+    width: 320px;
+    margin:auto;
+}
+.subscribe-section .email button {
+  
+    right: -52px;}
+.subscribe-section .email{
+	text-align: center;
+
+}
+.subscribe-section .subscribe1 img {
+    width: 80px;
+}
+.subscribe-section .subscribe2 h1 {
+ 
+    font-size: 23.8425px;
+    line-height: 30px;
+}
+footer .inner p {
+  
+    font-size: 16.4068px;
+    line-height: 22px;
+    padding: 6px 0px;
+    margin-bottom: 0px;
+}
+footer .inner .icon li i {
+    font-size: 22px;
+    padding-right: 14px;
+}
+footer .inner1 ul li {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.4068px;
+    line-height: 22px;
+    padding-bottom: 10px;
+}
+footer .inner1 h3 {
+    padding-bottom: 15px;
+    margin-bottom: 0px;
+    font-size: 22px;
+}
+footer h4 {
+  
+    font-size: 12.3818px;
+    margin-bottom: 0px;
+}
+footer .inner h3 {
+  
+    font-size: 22.3818px;
+}
+
+
+
+
+
+
+
+
+}
+@media (min-width: 992px) and (max-width: 1199.9px){
+
+	.next-section .next h1 {
+    
+    font-size: 73.0971px;
+    line-height: 80px;
+    padding-top: 0px;
+}
+.next-section {
+    padding: 120px 0px 170px 0px;
+}
+.next-section .next p {
+    
+    font-size: 25.8718px;
+    line-height: 32px;
+    padding: 0px 0px 8px 0px;
+}
+.next-section .next img {
+	
+}
+.what-section .what p {
+  
+    font-size: 20.8475px;
+    line-height: 150.69%;
+}
+.subscribe-section .email button {
+  
+    right: -7px;}
+footer h4 {
+  
+    font-size: 15.3818px;
+    margin-bottom: 0px;
+}
+footer .inner h3 {
+  
+    font-size: 22.3818px;
+}
+
+
+
+
+
+
+
+}
